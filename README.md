@@ -1,6 +1,8 @@
 # ArganoCodingChal
 
-my source code is in mavenproject/src/main/java/com/simplilearn/mavenproject
+The project is in the master branch.
+
+My source code is in mavenproject/src/main/java/com/simplilearn/mavenproject
   ->there is another README there that explains my thought process. 
 
 ***YOU WILL HAVE TO CHANGE ALL THE FILE PATHS CALLED IN THE CODE TO POINT TO CORRECT FILES***
