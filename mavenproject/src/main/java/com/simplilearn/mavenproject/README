@@ -1,0 +1,54 @@
+my thought process:
+
+0.1: made the machine class
+
+0.2: made the item class
+
+1: I need to handle the jason objects
+			-> I used maven with:
+							<dependency>
+				    <groupId>com.googlecode.json-simple</groupId>
+				    <artifactId>json-simple</artifactId>
+				    <version>1.1.1</version>
+					</dependency>
+			-> I made fileJSONtoItemArray(String filename) method 
+			   that takes in a json file's URL, reads the json object,
+			   finds the "items" array from json object, and finally converts it to an 
+			   array of items.
+
+2: I made fillMachine(item[] input) --inserts the items into the vending machine sequentially.
+			   
+			
+3: I wanted to focus on being able to display the machine
+			-> i make checks on if the slot is empty or not and if it is empty i 
+			   only print the count to give the machine its shape 
+			-> Im sure there is a much better solution to displaying the machine
+			
+4: I built the main's while loop that takes user input
+			-> I was unsure on how to take a JSON file as input so i just ask
+			   for the file path and parse it similar to the initial input file
+
+5: I need to create the transition() -this is called when its time for the customer to make a purchase
+			-> takes payment
+			     validate that its a dollar amount (double)
+			-> they make a selection
+			     i need to validate that their selection exist and is not empty
+			->I decided that if a customer makes an invalid selection then the transaction
+			  is canceled and their money is returned
+			->I decided that if they select an item and it cost more then they put in
+			  then the transaction is canceled and their money is returned.
+			->did the final math for the transaction, set cost and payment back to 0, printed change
+
+6: added logging statements
+			->I could have definitely done this better but i was short on time
+			->It logs the states of each transaction and notes if transaction was successful or canceled.
+			->I added a date and time to each log
+
+7: clean up and added comments
+
+
+
+
+
+
+			
