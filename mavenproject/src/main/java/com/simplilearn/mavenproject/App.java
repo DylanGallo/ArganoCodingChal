@@ -11,7 +11,7 @@ public class App
     	Scanner scanner = new Scanner(System.in);
     	
     	int optionInput = 0;
-        String initialFileName = "C:\\Users\\Dylan\\eclipse-workspace\\mavenproject\\src\\main\\java\\com\\simplilearn\\mavenproject\\input-coding challenge.json";
+        String initialFileName = "C:\\Users\\Dylan\\eclipse-workspace\\mavenproject\\input-coding challenge.json";
         
       //start up
         //make vending machine

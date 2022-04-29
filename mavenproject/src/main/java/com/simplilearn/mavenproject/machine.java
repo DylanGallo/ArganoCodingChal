@@ -91,12 +91,12 @@ public class machine {
 		Boolean validMoney = false;
 	
 ///		//logging
-		try(FileWriter writer = new FileWriter("C:\\Users\\Dylan\\eclipse-workspace\\mavenproject\\src\\main\\java\\com\\simplilearn\\mavenproject\\TransactionLog.txt",true)){
+		try(FileWriter writer = new FileWriter("/mavenproject/src/main/java/com/simplilearn/mavenproject/TransactionLog.txt",true)){
 			writer.write("\n");
 			writer.write("Transaction started: " + date + " - " + time +"\n");
 			writer.close();
 		}//end log
-		
+		///mavenproject/src/main/java/com/simplilearn/mavenproject/TransactionLog.txt
 		//displaying options
 		displayStock();
 		
