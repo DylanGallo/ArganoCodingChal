@@ -7,6 +7,8 @@ my thought process:
 
 0.2: made the item class
 
+0.3: App is the driver class
+
 1: I need to handle the jason objects
 			-> I used maven with:
 							<dependency>
